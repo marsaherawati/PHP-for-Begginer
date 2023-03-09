@@ -278,8 +278,7 @@ Pemisahan logika dari halaman yang utama yang berisi template/html dengan membua
         <?php endforeach; ?>
 
 Maka pada bagian index.php akan menjadi seperti ini:
-
-<?php 
+<?php
 $books = [
     [
         'name' => 'Do Android Dream of Electric Sheep',
