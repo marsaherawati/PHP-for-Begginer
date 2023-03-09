@@ -24,73 +24,29 @@
 </body>
 </html>
 Lalu jalankan dengan menggunakan apache/xampp untuk melihat web. Tag diatas adalah h1. Jika file nama diubah namun di browser kita masih menjalankan nama file lama maka akan terjadi error. Lalu mengubah file diatas dengan nama index.php namun belum ditambahkan dengan program php maka akan terjadi eror juga, maka program dapat diubah sebagai berikut
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Demo</title>
-</head>
-<body>
-    <h1>
         <?php 
         echo "Hello Word";
         ?>
-    </h1>
-</body>
-</html>
 
-Html disebut juga web dinamis karena dimana penggunanya tidak dapat berinteraksi langsung sedangkan php disebut juga web statis dimanapengguna dapat berinteraksi langsung
+<h3>Html disebut juga web dinamis karena dimana penggunanya tidak dapat berinteraksi langsung sedangkan php disebut juga web statis dimanapengguna dapat berinteraksi langsung</h3>
 
-PHP For Beginners, Ep 4 - Variables
+<h2>PHP For Beginners, Ep 4 - Variables</h2><br>
 
-Berisi bagaimana dapat menggabungkan hal-hal atau concatenate akan menjadi istilah yang tepat. Menggabungkan menggunakan tanda (+) adalah penggunaan penggabungan operator yang salah, biasanya pada php menggunakan tanda (.) untuk menggabungkan seperti berikut
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Demo</title>
-</head>
-<body>
-    <h1>
+<h3>Berisi bagaimana dapat menggabungkan hal-hal atau concatenate akan menjadi istilah yang tepat. Menggabungkan menggunakan tanda (+) adalah penggunaan penggabungan operator yang salah, biasanya pada php menggunakan tanda (.) untuk menggabungkan seperti berikut</h2>
         <?php 
         echo "Hello" . "Word";
         ?>
-    </h1>
-</body>
-</html>
 
-Bisa diganti kata word dengan lainnya seperti everybody di bawah ini
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Demo</title>
-</head>
-<body>
-    <h1>
+<h3>Bisa diganti kata word dengan lainnya seperti everybody di bawah ini</h3><br>
         <?php 
         echo "Hello" . " " . "Everybody";
         ?>
-    </h1>
-</body>
-</html>
 
-Kita akan membuat variabel yang pertama yang itu menggunakan symbol ($) atau yang disebut dollar lalu dilanjutkan dengan nama variabel seperti greeting karena ingin menyapa dan dapat diisikan dengan “Hello” sehingga pada codingan kita dapat mengganti kata “Hello” dengan nama variabel yang kita buat
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Demo</title>
-</head>
-<body>
-    <h1>
+<h3>Kita akan membuat variabel yang pertama yang itu menggunakan symbol ($) atau yang disebut dollar lalu dilanjutkan dengan nama variabel seperti greeting karena ingin menyapa dan dapat diisikan dengan “Hello” sehingga pada codingan kita dapat mengganti kata “Hello” dengan nama variabel yang kita buat</h3>
         <?php 
         $greeting = "Hello";
         echo $greeting . "Everybody";
         ?>
-    </h1>
-</body>
-</html>
 
 Atau lebih mudahnya kita dapat menggabungkan nama variabel kita dan everybody dalam satu tanda petik dua jadi tidak perlu menggunakan operator penggabungan berupa (.) titik. Hal ini disebut sebagai refactoring itu adalah ketika kita men-tweak kode tanpa benar-benar mengubah hasil akhir
 <!DOCTYPE html>
