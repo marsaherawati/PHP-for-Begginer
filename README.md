@@ -1,22 +1,22 @@
 <h2>How to Choose A First Programming Language</h2>
 <h3>Dalam Memilih bahasa pemrograman harus sesuai dengan tujuan kita. Apabila kita ingin membuat situs web, kita bisa belajar bahasa pemrograman seperti HTML, CSS, dan JS. Jika kita ingin membuat aplikasi desktop, kita mungkin bisa memilih bahasa seperti Python, C++, atau Java. Jika kita benar benar baru dalam pemrograman, cobalah memilih bahasa yang lebih mudah seperti Python atau Ruby. Setelah itu kita bisa mempertimbangkan jenis proyek yang kita ingin kerjakan di masa depan, jika kita ingin menjadi seorang pengembang Game, kita bisa memilih bahasa C++ atau C#, dan apa bila kita ingin fokus pada pengembangan Web, kita bisa memilih bahasa JavaScript atau PHP.</h3>
-PHP For Beginners, Ep 2 - Tools of the Trade
-1.	Text Editor. Dalam pengembangan web, text editor digunakan untuk menulis kode program. Ada banyak pilihan text editor gratis dan berbayar yang tersedia, seperti Visual Studio Code dan Sublime Text.
+<h2>PHP For Beginners, Ep 2 - Tools of the Trade</h2><br>
+<h3>1.	Text Editor. Dalam pengembangan web, text editor digunakan untuk menulis kode program. Ada banyak pilihan text editor gratis dan berbayar yang tersedia, seperti Visual Studio Code dan Sublime Text.<br>
 2.	Terminal. Terminal adalah alat yang digunakan untuk mengeksekusi perintah pada sistem operasi. Dalam pengembangan web dengan PHP, terminal digunakan untuk menjalankan perintah seperti menjalankan server web lokal atau menginstal paket PHP.
-3.	PHP. PHP harus diinstal di server untuk dapat menjalankan aplikasi web PHP. PHP menyediakan banyak fungsi dan fitur untuk memproses data dan menghasilkan konten dinamis pada website.
-4.	Local Development Environment. Saat membangun situs web, seringkali lebih mudah untuk membangun dan menguji di lingkungan lokal. Ada beberapa alat yang tersedia untuk membuat lingkungan pengembangan lokal, seperti XAMPP, MAMP, atau WAMP.
-5.	Browser. Browser digunakan untuk menampilkan halaman web yang dihasilkan oleh aplikasi web PHP. Beberapa pilihan browser yang populer antara lain Google Chrome, Mozilla Firefox, dan Microsoft Edge.Browser: Browser digunakan untuk menampilkan halaman web yang dihasilkan oleh aplikasi web PHP. Beberapa pilihan browser yang populer antara lain Google Chrome, Mozilla Firefox, dan Microsoft Edge.
-6.	Version Control. Version control digunakan untuk melacak perubahan pada kode program dan bekerja sama dengan tim. Salah satu platform version control yang populer adalah Git dan tersedia beberapa hosting Git seperti GitHub, GitLab, Bitbucket.
-PHP For Beginners, Ep 3 - Your First PHP Tag
-Yang pertama kita membuat dan menyimpan direktori dimanapun yang kamu mau sebelum membuat website. Membuat direktori hanya memerintahkan menggunakan mkdir. Pertama akan membuat index.html yang isi programnya adalah
+3.	PHP. PHP harus diinstal di server untuk dapat menjalankan aplikasi web PHP. PHP menyediakan banyak fungsi dan fitur untuk memproses data dan menghasilkan konten dinamis pada website.<br>
+4.	Local Development Environment. Saat membangun situs web, seringkali lebih mudah untuk membangun dan menguji di lingkungan lokal. Ada beberapa alat yang tersedia untuk membuat lingkungan pengembangan lokal, seperti XAMPP, MAMP, atau WAMP.<br>
+5.	Browser. Browser digunakan untuk menampilkan halaman web yang dihasilkan oleh aplikasi web PHP. Beberapa pilihan browser yang populer antara lain Google Chrome, Mozilla Firefox, dan Microsoft Edge.Browser: Browser digunakan untuk menampilkan halaman web yang dihasilkan oleh aplikasi web PHP. Beberapa pilihan browser yang populer antara lain Google Chrome, Mozilla Firefox, dan Microsoft Edge.<br>
+6.	Version Control. Version control digunakan untuk melacak perubahan pada kode program dan bekerja sama dengan tim. Salah satu platform version control yang populer adalah Git dan tersedia beberapa hosting Git seperti GitHub, GitLab, Bitbucket.<br></h2>
+<h3>PHP For Beginners, Ep 3 - Your First PHP Tag</h3><br>
+<h2>Yang pertama kita membuat dan menyimpan direktori dimanapun yang kamu mau sebelum membuat website. Membuat direktori hanya memerintahkan menggunakan mkdir. Pertama akan membuat index.html yang isi programnya adalah</h2><br>
 
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8" />
-    <title>Demo</title>
-</head>
-<body>
+<!DOCTYPE html><br>
+<html><br>
+<head><br>
+    <meta charset="UTF-8" /><br>
+    <title>Demo</title><br>
+</head><br>
+<body><br>
     <h1>Hello Word</h1>
 </body>
 </html>
