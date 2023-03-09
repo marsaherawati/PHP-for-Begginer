@@ -11,7 +11,8 @@ PHP For Beginners, Ep 2 - Tools of the Trade<br>
 
 PHP For Beginners, Ep 3 - Your First PHP Tag<br>
 Yang pertama kita membuat dan menyimpan direktori dimanapun yang kamu mau sebelum membuat website. Membuat direktori hanya memerintahkan menggunakan mkdir.
-Lalu jalankan dengan menggunakan apache/xampp untuk melihat web. Tag diatas adalah h1. Jika file nama diubah namun di browser kita masih menjalankan nama file lama maka akan terjadi error. Lalu mengubah file diatas dengan nama index.php namun belum ditambahkan dengan program php maka akan terjadi eror juga, maka program dapat diubah sebagai berikut
+Lalu jalankan dengan menggunakan apache/xampp untuk melihat web. Tag diatas adalah h1. Jika file nama diubah namun di browser kita masih menjalankan nama file lama maka akan terjadi error. Lalu mengubah file diatas dengan nama index.php namun belum ditambahkan dengan program php maka akan terjadi eror juga, maka program dapat diubah sebagai berikut'
+
         <?php 
         echo "Hello Word";
         ?>
@@ -20,22 +21,26 @@ Html disebut juga web dinamis karena dimana penggunanya tidak dapat berinteraksi
 
 PHP For Beginners, Ep 4 - Variables<br>
 Berisi bagaimana dapat menggabungkan hal-hal atau concatenate akan menjadi istilah yang tepat. Menggabungkan menggunakan tanda (+) adalah penggunaan penggabungan operator yang salah, biasanya pada php menggunakan tanda (.) untuk menggabungkan seperti berikut
+
         <?php 
         echo "Hello" . "Word";
         ?>
 
 Bisa diganti kata word dengan lainnya seperti everybody di bawah ini
+
         <?php 
         echo "Hello" . " " . "Everybody";
         ?>
 
 Kita akan membuat variabel yang pertama yang itu menggunakan symbol ($) atau yang disebut dollar lalu dilanjutkan dengan nama variabel seperti greeting karena ingin menyapa dan dapat diisikan dengan “Hello” sehingga pada codingan kita dapat mengganti kata “Hello” dengan nama variabel yang kita buat
+
         <?php 
         $greeting = "Hello";
         echo $greeting . "Everybody";
         ?>
 
 Atau lebih mudahnya kita dapat menggabungkan nama variabel kita dan everybody dalam satu tanda petik dua jadi tidak perlu menggunakan operator penggabungan berupa (.) titik. Hal ini disebut sebagai refactoring itu adalah ketika kita men-tweak kode tanpa benar-benar mengubah hasil akhir
+
         <?php 
         $greeting = "Hello";
         echo "$greeting Everybody!";
@@ -45,6 +50,7 @@ Di dalam menulis code kita tidak boleh menggunakan tanda kutip karena akan terja
 
 PHP For Beginners, Ep 5 - Conditionals and Booleans<br>
 Yang pertama menulis manual yaitu You have read “dark matter.” Lalu kita mengedit css menggunakan inspect pada browser, kita mengedit pada bagian body dengan menambahkan display, place-items, height, margin dan font-family.Selanjutnya adalah menambahkan codingan yaitu apakah pengguna sudah membaca buku dark matter apa belum. Kita akan menambahkan variabel $read dimana jika sudah membaca maka akan diberi kata true seperti berikut
+
         body{
             display: grid;
             place-items: center;
@@ -63,6 +69,7 @@ Yang pertama menulis manual yaitu You have read “dark matter.” Lalu kita men
     <h1><?php echo $message; ?></h1>
 
 Dan bagaimana pernyataan jika belum membaca maka ditulis dengan false seperti berikut
+
         body{
             display: grid;
             place-items: center;
@@ -81,6 +88,7 @@ Dan bagaimana pernyataan jika belum membaca maka ditulis dengan false seperti be
     <h1><?php echo $message; ?></h1>
 
 Maka akan terjadi eror. Solusi agar tidak terjadi eror adalah dengan menambahkan else seperti berikut
+
         body{
             display: grid;
             place-items: center;
@@ -104,6 +112,7 @@ Jika kita mengubah $read menjadi true maka akan keluar lagi output yaitu “You 
 
 PHP For Beginners, Ep 6 - Arrays<br>
 Selanjutnya adalah membuat web tentang rekomendasi beberapa buku menggunakan array. Dalam tag kita membuat variabel dengan nama $books yang berisi 3 rekomendasi buku. Lalu kita menggunakan php untuk memanggil rekomendasi buku tersebut seperti ini
+
     <?php 
     $books = [
         "Do Androids Dream of Eletric Sheep",
@@ -117,6 +126,7 @@ Selanjutnya adalah membuat web tentang rekomendasi beberapa buku menggunakan arr
         ?>
 
 Atau dapat ditulis juga lebih mudah seperti ini
+
     <?php 
     $books = [
         "Do Androids Dream of Eletric Sheep",
@@ -131,6 +141,7 @@ Atau dapat ditulis juga lebih mudah seperti ini
 
 PHP For Beginners, Ep 7 - Associative Arrays<br>
 Cara memanggil array adalah dengan menggunakan codingan sebagai berikut
+
     <?php 
     $books = [
         "Do Androids Dream of Eletric Sheep",
@@ -142,6 +153,7 @@ Cara memanggil array adalah dengan menggunakan codingan sebagai berikut
         <?= $books[2] ?>
 
 Menggunakan array asosiatif adalah larik yang memiliki key dan value, seperti berikut
+
     <?php 
 
         $books = [
@@ -199,6 +211,7 @@ Pemanggilan function seperti berikut
 PHP For Beginners, Ep 9 - Lambda Functions<br>
 
 Di dalam fungsi lambda, $filteredBooks adalah nama variabel yang digunakan untuk menampung fungsi lambda.
+
     <?php 
 
         $books = [
@@ -265,8 +278,6 @@ Di dalam fungsi lambda, $filteredBooks adalah nama variabel yang digunakan untuk
 
 PHP For Beginners, Ep 10 - Separate PHP Logic From the Template<br>
 Pemisahan logika dari halaman yang utama yang berisi template/html dengan membuat file baru bisa menggunakan nama file apa saja, disini akan menggunakan nama file index.view php sebagai berikut
-<?php include "Episode-10.index.php" ?>
-        <?php foreach ($filteredBooks as $book) : ?>
         
         <li>
             <a href="<?= $book['purchaseUrl'] ?>">
@@ -278,9 +289,10 @@ Pemisahan logika dari halaman yang utama yang berisi template/html dengan membua
         <?php endforeach; ?>
 
 Maka pada bagian index.php akan menjadi seperti ini:
+
 <?php 
 
-$books = [
+\$books = [
     [
         'name' => 'Do Android Dream of Electric Sheep',
         'author' => 'Philip K. Dick',
