@@ -9,18 +9,20 @@
 6.	Version Control. Version control digunakan untuk melacak perubahan pada kode program dan bekerja sama dengan tim. Salah satu platform version control yang populer adalah Git dan tersedia beberapa hosting Git seperti GitHub, GitLab, Bitbucket.<br></h2>
 <h3>PHP For Beginners, Ep 3 - Your First PHP Tag</h3><br>
 <h2>Yang pertama kita membuat dan menyimpan direktori dimanapun yang kamu mau sebelum membuat website. Membuat direktori hanya memerintahkan menggunakan mkdir. Pertama akan membuat index.html yang isi programnya adalah</h2><br>
-
-<!DOCTYPE html><br>
-<html><br>
-<head><br>
-    <meta charset="UTF-8" /><br>
-    <title>Demo</title><br>
-</head><br>
-<body><br>
-    <h1>Hello Word</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Demo</title>
+</head>
+<body>
+    <h1>
+        <?php 
+        echo "Hello Word";
+        ?>
+    </h1>
 </body>
 </html>
-
 Lalu jalankan dengan menggunakan apache/xampp untuk melihat web. Tag diatas adalah h1. Jika file nama diubah namun di browser kita masih menjalankan nama file lama maka akan terjadi error. Lalu mengubah file diatas dengan nama index.php namun belum ditambahkan dengan program php maka akan terjadi eror juga, maka program dapat diubah sebagai berikut
 <!DOCTYPE html>
 <html>
