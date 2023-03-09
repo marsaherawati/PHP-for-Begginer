@@ -280,7 +280,7 @@ Pemisahan logika dari halaman yang utama yang berisi template/html dengan membua
 Maka pada bagian index.php akan menjadi seperti ini
 
 <?php 
-$books = 
+$books = [
     [
         'name' => 'Do Android Dream of Electric Sheep',
         'author' => 'Philip K. Dick',
@@ -300,14 +300,6 @@ $books =
         'purchaseUrl' => 'http://example.com'
     ],
 ];
-
 $filteredBooks = array_filter($books, function ($book){
     return $book['author'] === 'Andy Weir';
 });
-
-// require "index.php";
-
-?>
-
-
-"# PHP-for-Begginer" 
