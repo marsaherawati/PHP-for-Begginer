@@ -300,7 +300,8 @@ $books = [
         'purchaseUrl' => 'http://example.com'
     ],
 ];
-$filteredBooks = array_filter($books, function ($book){
+
+$filteredBooks = array_filte r ($books, function ($book){
     return $book['author'] === 'Andy Weir';
 });
 ?>
