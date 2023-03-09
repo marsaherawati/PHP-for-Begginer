@@ -9,6 +9,7 @@ PHP For Beginners, Ep 2 - Tools of the Trade
 6.	Version Control. Version control digunakan untuk melacak perubahan pada kode program dan bekerja sama dengan tim. Salah satu platform version control yang populer adalah Git dan tersedia beberapa hosting Git seperti GitHub, GitLab, Bitbucket.
 PHP For Beginners, Ep 3 - Your First PHP Tag
 Yang pertama kita membuat dan menyimpan direktori dimanapun yang kamu mau sebelum membuat website. Membuat direktori hanya memerintahkan menggunakan mkdir. Pertama akan membuat index.html yang isi programnya adalah
+
 <!DOCTYPE html>
 <html>
 <head>
