@@ -277,7 +277,7 @@ Pemisahan logika dari halaman yang utama yang berisi template/html dengan membua
 
         <?php endforeach; ?>
 
-Maka pada bagian index.php akan menjadi seperti ini
+Maka pada bagian index.php akan menjadi seperti ini:
 
 <?php 
 $books = [
@@ -303,3 +303,4 @@ $books = [
 $filteredBooks = array_filter($books, function ($book){
     return $book['author'] === 'Andy Weir';
 });
+?>
